@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    --dark-bg: #1F2937;
+    --button-color: #3882F6;
+    --quote-bg: #E5E7EB;
+    --hero-main-text-size: 48px;
+    --hero-logo-text-size: 24px;
+    --hero-second-text-size: 18px;
+    --info-header-text-size: 36px;
+    --quote-text-size: 36px;
+    background-color: var(--dark-bg);
+}
+
+body {
+    /* ? */
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: var(--hero-second-text-size);
+    color: var(--quote-bg);
+}
+
+button {
+    background-color: var(--button-color);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    padding: 3px 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header h2 {
+    font-size: var(--hero-logo-text-size);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 48px;
+    gap: 50px;
+}
+
+.hero-text {
+    /* ? */
+    flex-basis: 500px;
+    flex-wrap: wrap;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: var(--quote-bg);
+}
+
+.hero-image {
+    flex-basis: 256px;
+}
+
+.info {
+    background-color: white;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 75px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px
+}
+
+.card-box {
+    flex-basis: 150px;
+    border: 3px solid var(--button-color);
+    border-radius: 10%;
+}
+
+.quote {
+    background-color: var(--quote-bg);
+}
+
+.action {
+    background-color: white;
+}
+
+footer {
+    padding: 25px;  
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
